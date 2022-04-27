@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Me/AndroidStudioProjects/MapGeoApp/app/src/main/res/layout/activity_main.xml" value="0.33178869323447635" />
+        <entry key="..\:/Users/Me/AndroidStudioProjects/MapGeoApp/app/src/main/res/layout/main_fragment_layout.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Me/AndroidStudioProjects/MapGeoApp/app/src/main/res/layout/mark_recycler_item.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Me/AndroidStudioProjects/MapGeoApp/app/src/main/res/layout/marks_list_layout.xml" value="0.18802083333333333" />
       </map>
     </option>
   </component>

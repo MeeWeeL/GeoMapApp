@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Map Geo App</string>
     <string name="map">Map</string>
+    <string name="my_location">My location</string>
 </resources>

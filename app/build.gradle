@@ -29,9 +29,21 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding = true
+    }
+    buildTypes.each {
+        Properties properties = new Properties()
+
+        properties.load(project.rootProject.file("local.properties").newDataInputStream())
+        def apiKey = properties.getProperty("yapi_key", "")
+        it.buildConfigField "String", "YAPI_KEY", apiKey
+    }
 }
 
 dependencies {
+
+    implementation 'com.yandex.android:maps.mobile:4.0.0-full'
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
